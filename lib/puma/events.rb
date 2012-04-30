@@ -30,7 +30,7 @@ module Puma
     end
 
     # An unknown error has occured.
-    # +server+ is the Server object, +env+ the request, +error+ an exception
+    # +server+ is the Server object, +error+ an exception
     # object, and +kind+ some additional info.
     #
     def unknown_error(server, error, kind="Unknown")
